@@ -27,4 +27,25 @@ console.log(parseFloat(sectorCode));
 console.log(parseFloat(countDown)); // why consider last number...
 //
 console.log(parseInt("110", 3));
+// ! doubt....
+
+const thrustForce = 4.567;
+
+console.log(Math.round(thrustForce));
+console.log(Math.floor(thrustForce));
+console.log(Math.ceil(thrustForce));
+console.log(Math.trunc(thrustForce));
+// console.log(Math.rounds(thrustForce));
+
+const temps = [-120, 43, 56, -23];
+console.log(Math.min(temps));
+
+console.log(0.1 + 0.2);
+console.log(0.1 + 0.2 === 0.3);
+
+function almostEqual(a, b){
+    return Math.abs(a - b ) < Number.EPSILON;
+};
+
+console.log(almostEqual(0.1 + 0.2 , 0.3));
 
