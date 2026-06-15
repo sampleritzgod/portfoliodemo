@@ -223,11 +223,13 @@ const EmpRate = {
 };
 console.log(EmpRate);
 console.log(EmpRate.Countary2.jobs);
-// ! i think is rabit hole i sove in later...
+// ! i think this  rabit hole i solve in later...
 
 const PositionHolder = {name: "Dark_Health", effect: {heal: 50, mana:56}};
 
 const ClonePositionHolder = {...PositionHolder};
+console.log(ClonePositionHolder.effect = power = 70);
+console.log(ClonePositionHolder);
 ClonePositionHolder.effect.push({power: "heal"}) ;
 console.log(PositionHolder);
 console.log(ClonePositionHolder);
